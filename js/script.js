@@ -85,17 +85,17 @@ class OrderManager {
 
     updateOrderButton() {
         const button = document.querySelector('.finish-order-button');
-        const hasAnyItemSelected = Object.values(this.selectedItems)
-            .some(item => item !== null);
+        const hasAllCategories = Object.values(this.selectedItems)
+            .every(item => item !== null);
 
-        if (hasAnyItemSelected) {
+        if (hasAllCategories) {
             button.classList.add('enabled');
             button.disabled = false;
             button.textContent = 'Fechar pedido';
         } else {
             button.classList.remove('enabled');
             button.disabled = true;
-            button.textContent = 'Selecione pelo menos 1 item para fechar o pedido';
+            button.textContent = 'Selecione os 3 itens para fechar o pedido';
         }
     }
 
