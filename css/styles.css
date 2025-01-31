@@ -65,11 +65,14 @@ main {
     border: 2px solid transparent;
     display: flex;
     flex-direction: column;
+    transition: all 0.2s ease-in-out;
 }
 
 /* Adicionei borda verde quando o card está selecionado */
 .option-card.selected {
     border-color: #32B72F;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease-in-out;
 }
 
 /* Ajustei o tamanho e estilo das imagens */
