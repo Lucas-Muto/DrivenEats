@@ -34,16 +34,12 @@ O botão "Fechar pedido":
 2. Muda o texto e estilo quando habilitado/desabilitado
 3. Só habilita quando todos os três itens estão selecionados
 
-Referência:
-
 ### Modal de Confirmação de Pedido
 Ao finalizar um pedido:
 1. Mostra um modal com os itens selecionados
 2. Exibe os nomes e preços dos itens
 3. Calcula e mostra o total
 4. Fornece opções para confirmar ou cancelar
-
-Referência:
 
 ### Funções Auxiliares
 - extractPrice: Converte strings de preço em números
