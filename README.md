@@ -1,7 +1,7 @@
 # DrivenEats - Documentação da Lógica JavaScript
 
 ## Visão Geral
-A aplicação utiliza uma abordagem baseada em classes com a classe OrderManager gerenciando toda a lógica de negócios para seleção de itens e gerenciamento do processo de pedidos.
+A aplicação utiliza uma abordagem baseada em classes com a classe OrderManager gerenciando toda a lógica de negócios para seleção de itens e gerenciamento do processo de pedidos. A aplicação não contém responsividade pois se trata de um desafio da Driven e a orientação é para ser feito para apenas versão mobile.
 
 ## Estrutura da Classe: OrderManager
 
